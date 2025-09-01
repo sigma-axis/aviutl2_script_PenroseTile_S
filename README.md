@@ -11,11 +11,11 @@
 1.  [ペンローズタイル ぼかしσ](#ペンローズタイル-ぼかしσ)
 1.  [ペンローズタイル レンズσ](#ペンローズタイル-レンズσ)
 
-<img width="480" height="360" alt="ペンローズタイルσの使用例" src="https://github.com/user-attachments/assets/8e63a0c2-3a65-4962-be27-50881c8da484" />
+<img width="320" height="240" alt="ペンローズタイルσの使用例" src="https://github.com/user-attachments/assets/8e63a0c2-3a65-4962-be27-50881c8da484" />
 
-<img width="480" height="300" alt="ペンローズタイル モザイクσの使用例" src="https://github.com/user-attachments/assets/37278491-67b6-4445-80dd-9a01f72680f4" />
+<img width="320" height="200" alt="ペンローズタイル モザイクσの使用例" src="https://github.com/user-attachments/assets/37278491-67b6-4445-80dd-9a01f72680f4" />
 
-<img width="480" height="300" alt="ペンローズタイル ぼかしσの使用例" src="https://github.com/user-attachments/assets/9b5f3104-b26b-453e-bbdc-07fdf3341e6f" />
+<img width="320" height="200" alt="ペンローズタイル ぼかしσの使用例" src="https://github.com/user-attachments/assets/9b5f3104-b26b-453e-bbdc-07fdf3341e6f" />
 
 <img width="300" height="300" alt="ペンローズタイル レンズσの使用例" src="https://github.com/user-attachments/assets/2859f48e-9cd7-452a-a2c3-a4070c904821" />
 
@@ -47,7 +47,7 @@
 
 ペンローズタイルの画像を生成するオブジェクトです．
 
-<img width="320" height="320" alt="ペンローズタイルの例" src="https://github.com/user-attachments/assets/8e63a0c2-3a65-4962-be27-50881c8da484" />
+<img width="320" height="240" alt="ペンローズタイルの例" src="https://github.com/user-attachments/assets/8e63a0c2-3a65-4962-be27-50881c8da484" />
 
 - 初期状態だと「オブジェクトを追加」メニューの「カスタムオブジェクト」に「ペンローズタイルσ」が追加されています．
 
@@ -55,7 +55,7 @@
 
 タイルごとに単一色に塗り分ける形でモザイクをかけるフィルタ効果です．
 
-<img width="320" height="320" alt="モザイクの例" src="https://github.com/user-attachments/assets/37278491-67b6-4445-80dd-9a01f72680f4" />
+<img width="320" height="200" alt="モザイクの例" src="https://github.com/user-attachments/assets/37278491-67b6-4445-80dd-9a01f72680f4" />
 
 - 初期状態だと「フィルタ効果を追加」メニューの「加工」に「ペンローズタイル モザイクσ@PenroseTile_S」が追加されています．
 
@@ -63,7 +63,7 @@
 
 タイルの外側に「色が滲み出ない」ようなぼかしをかけるフィルタ効果です．
 
-<img width="320" height="320" alt="ぼかしの例" src="https://github.com/user-attachments/assets/9b5f3104-b26b-453e-bbdc-07fdf3341e6f" />
+<img width="320" height="200" alt="ぼかしの例" src="https://github.com/user-attachments/assets/9b5f3104-b26b-453e-bbdc-07fdf3341e6f" />
 
 - 初期状態だと「フィルタ効果を追加」メニューの「ぼかし」に「ペンローズタイル ぼかしσ@PenroseTile_S」が追加されています．
 
@@ -105,8 +105,8 @@ Sun と Star の2種類から中心となる形状を選びます．
 
 | `中心の形状` | P2 | P3 | [`PI`](#pi) での指定値 |
 |:---:|:---:|:---:|:---:|
-| Sun | <img width="192" height="192" alt="P2のSun" src="https://github.com/user-attachments/assets/b3f4d0c8-ed06-4ee6-aa63-0e254fb19f4f" /> | <img width="192" height="192" alt="P3のSun" src="https://github.com/user-attachments/assets/8af1cda8-2bfe-454d-a112-7da7d6a9f90f" /> | `0` |
-| Star | <img width="192" height="192" alt="P2のStar" src="https://github.com/user-attachments/assets/ef7663a2-8a73-4760-bf44-128738cd3543" /> | <img width="192" height="192" alt="P3のStar" src="https://github.com/user-attachments/assets/082d7798-37d1-4e8b-b840-6f267a6f7918" /> | `1` |
+| Sun | <img width="128" height="128" alt="P2のSun" src="https://github.com/user-attachments/assets/b3f4d0c8-ed06-4ee6-aa63-0e254fb19f4f" /> | <img width="128" height="128" alt="P3のSun" src="https://github.com/user-attachments/assets/8af1cda8-2bfe-454d-a112-7da7d6a9f90f" /> | `0` |
+| Star | <img width="128" height="128" alt="P2のStar" src="https://github.com/user-attachments/assets/ef7663a2-8a73-4760-bf44-128738cd3543" /> | <img width="128" height="128" alt="P3のStar" src="https://github.com/user-attachments/assets/082d7798-37d1-4e8b-b840-6f267a6f7918" /> | `1` |
 
 - “Sun”, “Star” は本来，P2 での形状を指しますが，P3 でのこの呼び名はこのスクリプト独自の便宜的なものです．
 
@@ -273,8 +273,8 @@ P1, P2 ともに，大きい方のタイルが `移動X1`, `移動Y1` に, 小�
 
 |タイル | `拡大率`: 200<br>`縦横比`: 0 | `拡大率`: 50<br>`縦横比`: 0 | `拡大率`: 200<br>`縦横比`: +100 | `拡大率`: 200<br>`縦横比`: -100|
 |:---:|:---:|:---:|:---:|:---:|
-| 大きい方 | <img width="176" height="240" alt="大きい方 / 200% x 200%" src="https://github.com/user-attachments/assets/e43595c2-b4dd-4827-a38c-93a775ebe13e" /> | <img width="176" height="240" alt="大きい方 / 50% x 50%" src="https://github.com/user-attachments/assets/0868a410-725f-402a-b53c-a04ddefb0911" /> | <img width="176" height="240" alt="大きい方 / 100% x 200%" src="https://github.com/user-attachments/assets/46af8c4c-05a5-493c-a027-7b70caefbf37" /> | <img width="176" height="240" alt="大きい方 / 200% x 200%" src="https://github.com/user-attachments/assets/7304670d-8161-4df5-9e30-598f44960696" /> |
-| 小さい方 | <img width="280" height="92" alt="小さい方 / 200% x 200%" src="https://github.com/user-attachments/assets/e2fdd029-86e4-4149-8561-f6695d9448a6" /> | <img width="280" height="92" alt="小さい方 / 50% x 50%" src="https://github.com/user-attachments/assets/e85c6501-7649-41f5-a8a1-98d619a004df" /> | <img width="280" height="92" alt="小さい方 / 100% x 200%" src="https://github.com/user-attachments/assets/ad544bd1-42ae-404c-87d8-8467f1c48887" /> | <img width="280" height="92" alt="小さい方 / 200% x 100%" src="https://github.com/user-attachments/assets/9fb09af3-8ede-4fb6-83d1-2fb7f909eab0" /> |
+| 大きい方 | <img width="118" height="160" alt="大きい方 / 200% x 200%" src="https://github.com/user-attachments/assets/e43595c2-b4dd-4827-a38c-93a775ebe13e" /> | <img width="118" height="160" alt="大きい方 / 50% x 50%" src="https://github.com/user-attachments/assets/0868a410-725f-402a-b53c-a04ddefb0911" /> | <img width="118" height="160" alt="大きい方 / 100% x 200%" src="https://github.com/user-attachments/assets/46af8c4c-05a5-493c-a027-7b70caefbf37" /> | <img width="118" height="160" alt="大きい方 / 200% x 200%" src="https://github.com/user-attachments/assets/7304670d-8161-4df5-9e30-598f44960696" /> |
+| 小さい方 | <img width="192" height="64" alt="小さい方 / 200% x 200%" src="https://github.com/user-attachments/assets/e2fdd029-86e4-4149-8561-f6695d9448a6" /> | <img width="192" height="64" alt="小さい方 / 50% x 50%" src="https://github.com/user-attachments/assets/e85c6501-7649-41f5-a8a1-98d619a004df" /> | <img width="192" height="64" alt="小さい方 / 100% x 200%" src="https://github.com/user-attachments/assets/ad544bd1-42ae-404c-87d8-8467f1c48887" /> | <img width="192" height="64" alt="小さい方 / 200% x 100%" src="https://github.com/user-attachments/assets/9fb09af3-8ede-4fb6-83d1-2fb7f909eab0" /> |
 
 拡大率を負にすると反転します．
 
@@ -291,8 +291,8 @@ P1, P2 ともに，大きい方のタイルが `移動X1`, `移動Y1` に, 小�
 
 | タイル | `丸み`: 10 | `丸み`: 50 | `丸み`: 100 | 
 |:---:|:---:|:---:|:---:|
-| 大きい方 | <img width="176" height="240" alt="大きい方 / 丸み 10%" src="https://github.com/user-attachments/assets/b957e638-a063-4ae8-a8da-71c58b4f2168" /> | <img width="176" height="240" alt="大きい方 / 丸み 50%" src="https://github.com/user-attachments/assets/83f68efa-72f5-4e97-9d08-d4894075da0f" /> | <img width="176" height="240" alt="大きい方 / 丸み 100%" src="https://github.com/user-attachments/assets/f22b90b3-78b5-4d68-9e6f-e4bd2ed3d868" /> |
-| 小さい方 | <img width="280" height="92" alt="小さい方 / 丸み 10%" src="https://github.com/user-attachments/assets/3a73ba83-8aab-4b41-9caf-566aa5ffcb66" /> | <img width="280" height="92" alt="小さい方 / 丸み 50%" src="https://github.com/user-attachments/assets/b0a4f811-eb14-4153-a73c-38d3df493836" /> | <img width="280" height="92" alt="小さい方 / 丸み 100%" src="https://github.com/user-attachments/assets/06c5551d-0157-42d6-8b4e-d35eb5e5e0dc" /> |
+| 大きい方 | <img width="118" height="160" alt="大きい方 / 丸み 10%" src="https://github.com/user-attachments/assets/b957e638-a063-4ae8-a8da-71c58b4f2168" /> | <img width="118" height="160" alt="大きい方 / 丸み 50%" src="https://github.com/user-attachments/assets/83f68efa-72f5-4e97-9d08-d4894075da0f" /> | <img width="118" height="160" alt="大きい方 / 丸み 100%" src="https://github.com/user-attachments/assets/f22b90b3-78b5-4d68-9e6f-e4bd2ed3d868" /> |
+| 小さい方 | <img width="192" height="64" alt="小さい方 / 丸み 10%" src="https://github.com/user-attachments/assets/3a73ba83-8aab-4b41-9caf-566aa5ffcb66" /> | <img width="192" height="64" alt="小さい方 / 丸み 50%" src="https://github.com/user-attachments/assets/b0a4f811-eb14-4153-a73c-38d3df493836" /> | <img width="192" height="64" alt="小さい方 / 丸み 100%" src="https://github.com/user-attachments/assets/06c5551d-0157-42d6-8b4e-d35eb5e5e0dc" /> |
 
 最小値は `0.00`, 最大値は `100.00`, 初期値は `50.00`.
 
@@ -485,7 +485,7 @@ P1, P2 ともに，大きい方のタイルが `移動X1`, `移動Y1` に, 小�
 
 ##  改版履歴
 
-- **v1.00 (for beta9)** (2025-09-??)
+- **v1.00 (for beta9)** (2025-09-01)
 
   - 初版．
 
