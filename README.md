@@ -2,7 +2,7 @@
 
 [ペンローズタイル (Penrose Tiling)](https://ja.wikipedia.org/wiki/ペンローズ・タイル) を生成したり，ペンローズタイルを利用したフィルタ効果を適用する AivUtl ExEdit 2 のスクリプトです．
 
-[ダウンロードはこちら．](https://github.com/sigma-axis/aviutl2_script_PenroseTile_S/releases) \[紹介動画準備中...\]
+[ダウンロードはこちら．](https://github.com/sigma-axis/aviutl2_script_PenroseTile_S/releases) [紹介動画．](https://www.nicovideo.jp/watch/sm45361368)
 
 次が追加されます:
 
