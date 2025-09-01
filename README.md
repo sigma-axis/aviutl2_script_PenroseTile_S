@@ -11,7 +11,13 @@
 1.  [ペンローズタイル ぼかしσ](#ペンローズタイル-ぼかしσ)
 1.  [ペンローズタイル レンズσ](#ペンローズタイル-レンズσ)
 
-![使用例](TODO: )
+<img width="480" height="360" alt="ペンローズタイルσの使用例" src="https://github.com/user-attachments/assets/8e63a0c2-3a65-4962-be27-50881c8da484" />
+
+<img width="480" height="300" alt="ペンローズタイル モザイクσの使用例" src="https://github.com/user-attachments/assets/37278491-67b6-4445-80dd-9a01f72680f4" />
+
+<img width="480" height="300" alt="ペンローズタイル ぼかしσの使用例" src="https://github.com/user-attachments/assets/9b5f3104-b26b-453e-bbdc-07fdf3341e6f" />
+
+<img width="300" height="300" alt="ペンローズタイル レンズσの使用例" src="https://github.com/user-attachments/assets/2859f48e-9cd7-452a-a2c3-a4070c904821" />
 
 - 元画像: https://www.pexels.com/photo/green-leafed-tree-beside-body-of-water-during-daytime-158063
 
@@ -41,7 +47,7 @@
 
 ペンローズタイルの画像を生成するオブジェクトです．
 
-<img width="320" height="320" alt="ペンローズタイルの例" src="TODO: " />
+<img width="320" height="320" alt="ペンローズタイルの例" src="https://github.com/user-attachments/assets/8e63a0c2-3a65-4962-be27-50881c8da484" />
 
 - 初期状態だと「オブジェクトを追加」メニューの「カスタムオブジェクト」に「ペンローズタイルσ」が追加されています．
 
@@ -49,7 +55,7 @@
 
 タイルごとに単一色に塗り分ける形でモザイクをかけるフィルタ効果です．
 
-<img width="320" height="320" alt="モザイクの例" src="TODO: " />
+<img width="320" height="320" alt="モザイクの例" src="https://github.com/user-attachments/assets/37278491-67b6-4445-80dd-9a01f72680f4" />
 
 - 初期状態だと「フィルタ効果を追加」メニューの「加工」に「ペンローズタイル モザイクσ@PenroseTile_S」が追加されています．
 
@@ -57,7 +63,7 @@
 
 タイルの外側に「色が滲み出ない」ようなぼかしをかけるフィルタ効果です．
 
-<img width="320" height="320" alt="ぼかしの例" src="TODO: " />
+<img width="320" height="320" alt="ぼかしの例" src="https://github.com/user-attachments/assets/9b5f3104-b26b-453e-bbdc-07fdf3341e6f" />
 
 - 初期状態だと「フィルタ効果を追加」メニューの「ぼかし」に「ペンローズタイル ぼかしσ@PenroseTile_S」が追加されています．
 
@@ -65,7 +71,7 @@
 
 タイルごとにレンズのように歪ませた変形をするフィルタ効果です．
 
-<img width="320" height="320" alt="レンズ効果の例" src="TODO: " />
+<img width="320" height="320" alt="レンズ効果の例" src="https://github.com/user-attachments/assets/2859f48e-9cd7-452a-a2c3-a4070c904821" />
 
 - 初期状態だと「フィルタ効果を追加」メニューの「変形」に「ペンローズタイル レンズσ@PenroseTile_S」が追加されています．
 
@@ -77,7 +83,7 @@
 
 ### 共通の設定項目
 
-![モザイクのGUI](TODO: )
+<img width="500" height="386" alt="モザイクのGUI" src="https://github.com/user-attachments/assets/df9c1c4b-446f-431c-a33f-08f53fd3dcbd" />
 
 ペンローズタイルの特性を設定するパラメタです．
 
@@ -87,7 +93,7 @@
 
 | `P2(Kite+Dart)` | `P3(菱形2種)` |
 |:---:|:---:|
-| TODO: image | TODO: image |
+| <img width="240" height="180" alt="P2タイリングの例" src="https://github.com/user-attachments/assets/f9408668-e089-4e39-97d5-4f2749ea0577" /> | <img width="240" height="180" alt="P3タイリングの例" src="https://github.com/user-attachments/assets/f1c19316-7312-4d09-8c63-09f5754bbfb8" /> |
 | Kite と Dart と呼ばれる図形で構成される． | 2種類の菱形で構成される． |
 | [`PI`](#pi) での指定値は `0`. | [`PI`](#pi) での指定値は `1`. |
 
@@ -98,9 +104,9 @@
 Sun と Star の2種類から中心となる形状を選びます．
 
 | `中心の形状` | P2 | P3 | [`PI`](#pi) での指定値 |
-|:---:|:---:|:---:|:---|
-| Sun | TODO: | TODO: | `0` |
-| Star | TODO: | TODO: | `1` |
+|:---:|:---:|:---:|:---:|
+| Sun | <img width="192" height="192" alt="P2のSun" src="https://github.com/user-attachments/assets/b3f4d0c8-ed06-4ee6-aa63-0e254fb19f4f" /> | <img width="192" height="192" alt="P3のSun" src="https://github.com/user-attachments/assets/8af1cda8-2bfe-454d-a112-7da7d6a9f90f" /> | `0` |
+| Star | <img width="192" height="192" alt="P2のStar" src="https://github.com/user-attachments/assets/ef7663a2-8a73-4760-bf44-128738cd3543" /> | <img width="192" height="192" alt="P3のStar" src="https://github.com/user-attachments/assets/082d7798-37d1-4e8b-b840-6f267a6f7918" /> | `1` |
 
 - “Sun”, “Star” は本来，P2 での形状を指しますが，P3 でのこの呼び名はこのスクリプト独自の便宜的なものです．
 
@@ -114,7 +120,7 @@ Sun と Star の2種類から中心となる形状を選びます．
 
 ####  `再分割`
 
-ペンローズタイルに [“deflation”](https://ja.wikipedia.org/wiki/ペンローズ・タイル#インフレーションとデフレーション) という操作を適用してタイルをさらに細分化します．
+ペンローズタイルに [deflation](https://ja.wikipedia.org/wiki/ペンローズ・タイル#インフレーションとデフレーション) という操作を適用してタイルをさらに細分化します．
 
 [`サイズ`](#サイズ) がさらに小さくなり，[`種類`](#種類) や [`中心の形状`](#中心の形状) も切り替わりますが，細分化前と後で多くの辺や頂点を共有しているため，連続な変化と相性がいいです．
 
@@ -140,7 +146,7 @@ Sun と Star の2種類から中心となる形状を選びます．
 
 タイル間の境界にアンチエイリアスをかけたり，明確な境界線を引いたりできます．
 
-- [ペンローズタイルσ](#ペンローズタイルσ) では `アンチエイリアス` が利用できます．
+- [ペンローズタイルσ](#ペンローズタイルσ) では `アンチエイリアス` が利用できます．チェックボックスで ON/OFF を切り替えられます．
 
   初期値は ON.
 
@@ -150,9 +156,9 @@ Sun と Star の2種類から中心となる形状を選びます．
 
   | `境界処理` | 説明 |
   |:---:|:---|
-  | `なし` | タイル間の境界にアンチエイリアス処理をしません．ジャギーな見え方になることがあります．[`PI`](#pi) での指定値は `0`. |
-  | `アンチエイリアス` | タイル間の境界にアンチエイリアス処理をします．[`PI`](#pi) での指定値は `1`. |
-  | `タイル風` | タイル間の境界に凹凸感のある境界線を引きます．[`PI`](#pi) での指定値は `2`. |
+  | `なし` | タイル間の境界にアンチエイリアス処理をしません．ジャギーな見え方になることがあります．<br>[`PI`](#pi) での指定値は `0`. |
+  | `アンチエイリアス` | タイル間の境界にアンチエイリアス処理をします．<br>[`PI`](#pi) での指定値は `1`. |
+  | `タイル風` | タイル間の境界に凹凸感のある境界線を引きます．<br>[`PI`](#pi) での指定値は `2`. |
 
   初期値は以下の通り:
 
@@ -163,7 +169,7 @@ Sun と Star の2種類から中心となる形状を選びます．
 
 ### ペンローズタイルσの設定項目
 
-![ペンローズタイルσのGUI](TODO: )
+<img width="500" height="772" alt="ペンローズタイルσのGUI" src="https://github.com/user-attachments/assets/e6c34106-e99a-42c9-b643-9b9ef6026691" />
 
 ####  `幅`, `高さ`, `背景サイズ`
 
@@ -223,19 +229,19 @@ P1, P2 ともに，大きい方のタイルが `色1`, 小さい方が `色2` �
 
 ### ペンローズタイル モザイクσの設定項目
 
-![モザイクのGUI](TODO: )
+<img width="500" height="386" alt="モザイクのGUI" src="https://github.com/user-attachments/assets/df9c1c4b-446f-431c-a33f-08f53fd3dcbd" />
 
 ####  `単点サンプル`
 
 モザイク効果の各タイルの色を，タイル内の色の平均をとるのではなく，中央の1点の色そのままで決定します．
 
-平均されない分，原色そのままの鮮やかな色合いになりやすいですが，動きのある画像に対して適用すると変化や “チラつき” が激しくなりやすくなります．
+平均されない分，原色そのままの鮮やかな色合いになりやすいですが，動きのある映像に対して適用すると変化や “チラつき” が激しくなりやすくなります．
 
 初期値は OFF.
 
 ### ペンローズタイル ぼかしσの設定項目
 
-![ぼかしのGUI](TODO: )
+<img width="500" height="386" alt="ぼかしのGUI" src="https://github.com/user-attachments/assets/ebac362e-c643-4286-b1c8-b49749acb747" />
 
 ####  `範囲`
 
@@ -245,7 +251,7 @@ P1, P2 ともに，大きい方のタイルが `色1`, 小さい方が `色2` �
 
 ### ペンローズタイル レンズσの設定項目
 
-![レンズのGUI](TODO: )
+<img width="500" height="910" alt="レンズのGUI" src="https://github.com/user-attachments/assets/84b4dc14-3494-472c-8a38-4f9df7c3f5d4" />
 
 ####  `移動X1`, `移動Y1`, `移動X2`, `移動Y2`
 
@@ -265,10 +271,10 @@ P1, P2 ともに，大きい方のタイルが `移動X1`, `移動Y1` に, 小�
 
 各タイルのレンズとしての拡大率を指定します．`拡大縦横比1`, `拡大縦横比2` で円柱レンズのような歪み方にもできます．
 
-|タイル | `拡大率`: 200<br>`縦横比`: 0 | `拡大率`: 50<br>`縦横比`: 0 | `拡大率`: 200<br>`縦横比`: 100 | `拡大率`: 200<br>`縦横比`: -100|
+|タイル | `拡大率`: 200<br>`縦横比`: 0 | `拡大率`: 50<br>`縦横比`: 0 | `拡大率`: 200<br>`縦横比`: +100 | `拡大率`: 200<br>`縦横比`: -100|
 |:---:|:---:|:---:|:---:|:---:|
-| 大きい方 | TODO: | TODO: | TODO: | TODO: |
-| 小さい方 | TODO: | TODO: | TODO: | TODO: |
+| 大きい方 | <img width="176" height="240" alt="大きい方 / 200% x 200%" src="https://github.com/user-attachments/assets/e43595c2-b4dd-4827-a38c-93a775ebe13e" /> | <img width="176" height="240" alt="大きい方 / 50% x 50%" src="https://github.com/user-attachments/assets/0868a410-725f-402a-b53c-a04ddefb0911" /> | <img width="176" height="240" alt="大きい方 / 100% x 200%" src="https://github.com/user-attachments/assets/46af8c4c-05a5-493c-a027-7b70caefbf37" /> | <img width="176" height="240" alt="大きい方 / 200% x 200%" src="https://github.com/user-attachments/assets/7304670d-8161-4df5-9e30-598f44960696" /> |
+| 小さい方 | <img width="280" height="92" alt="小さい方 / 200% x 200%" src="https://github.com/user-attachments/assets/e2fdd029-86e4-4149-8561-f6695d9448a6" /> | <img width="280" height="92" alt="小さい方 / 50% x 50%" src="https://github.com/user-attachments/assets/e85c6501-7649-41f5-a8a1-98d619a004df" /> | <img width="280" height="92" alt="小さい方 / 100% x 200%" src="https://github.com/user-attachments/assets/ad544bd1-42ae-404c-87d8-8467f1c48887" /> | <img width="280" height="92" alt="小さい方 / 200% x 100%" src="https://github.com/user-attachments/assets/9fb09af3-8ede-4fb6-83d1-2fb7f909eab0" /> |
 
 拡大率を負にすると反転します．
 
@@ -285,8 +291,8 @@ P1, P2 ともに，大きい方のタイルが `移動X1`, `移動Y1` に, 小�
 
 | タイル | `丸み`: 10 | `丸み`: 50 | `丸み`: 100 | 
 |:---:|:---:|:---:|:---:|
-| 大きい方 | TODO: | TODO: | TODO: |
-| 小さい方 | TODO: | TODO: | TODO: |
+| 大きい方 | <img width="176" height="240" alt="大きい方 / 丸み 10%" src="https://github.com/user-attachments/assets/b957e638-a063-4ae8-a8da-71c58b4f2168" /> | <img width="176" height="240" alt="大きい方 / 丸み 50%" src="https://github.com/user-attachments/assets/83f68efa-72f5-4e97-9d08-d4894075da0f" /> | <img width="176" height="240" alt="大きい方 / 丸み 100%" src="https://github.com/user-attachments/assets/f22b90b3-78b5-4d68-9e6f-e4bd2ed3d868" /> |
+| 小さい方 | <img width="280" height="92" alt="小さい方 / 丸み 10%" src="https://github.com/user-attachments/assets/3a73ba83-8aab-4b41-9caf-566aa5ffcb66" /> | <img width="280" height="92" alt="小さい方 / 丸み 50%" src="https://github.com/user-attachments/assets/b0a4f811-eb14-4153-a73c-38d3df493836" /> | <img width="280" height="92" alt="小さい方 / 丸み 100%" src="https://github.com/user-attachments/assets/06c5551d-0157-42d6-8b4e-d35eb5e5e0dc" /> |
 
 最小値は `0.00`, 最大値は `100.00`, 初期値は `50.00`.
 
@@ -452,9 +458,9 @@ P1, P2 ともに，大きい方のタイルが `移動X1`, `移動Y1` に, 小�
     1.  `拡大縦横比` が負なので `X` 方向はそのまま `150`.
     1.  `Y` 方向は，100% との差を `拡大縦横比` 分だけ縮める:
 
-        $Y = 1+(X-1)(1-|r|)$ を $X=1.50,\, r = -0.40$ で計算して $Y=1.30$.
+        $Y = 1+(X-1)(1-|r|)$ を $X=1.50, r = -0.40$ で計算して $Y=1.30$.
 
-    1.  % 単位に変換して `{ 150, 130 }` が対応する指定になる．
+    1.  数値を % 単位に変換して `{ 150, 130 }` が対応する指定になる．
     1.  `拡大率` が負の場合は，その絶対値で計算してから `X`, `Y` ともに符号を反転する．
 
   - `X`, `Y` の符号が異なる指定も可能です (`拡大縦横比` との組み合わせでは不可能).
