@@ -20,7 +20,7 @@
 
 <img width="300" height="300" alt="ペンローズタイル レンズσの使用例" src="https://github.com/user-attachments/assets/2859f48e-9cd7-452a-a2c3-a4070c904821" />
 
-TODO: video for scene changes.
+https://github.com/user-attachments/assets/ab940b10-4bb4-464e-a8af-786f893ceb6a
 
 - <details>
   <summary>元画像出典 (クリックで表示):</summary>
@@ -92,7 +92,7 @@ TODO: video for scene changes.
 
 [ペンローズタイル モザイクσ](#ペンローズタイル-モザイクσ) のモザイクがだんだん粗くかかっていき，最大サイズのモザイクでフェード，モザイクが細かくなって次のシーンに切り替えるシーンチェンジです．遷移画像ファイル (`Transition` フォルダ内に配置する形式のファイル) を選んで，シーンチェンジの形状を指定することもできます．
 
-TODO: video.
+https://github.com/user-attachments/assets/ab940b10-4bb4-464e-a8af-786f893ceb6a
 
 - 初期状態だと「フィルタ効果を追加」メニューの「シーンチェンジ」に「ペンローズタイル モザイクフェードσ」が追加されています．
 
@@ -347,7 +347,7 @@ P1, P2 ともに，大きい方のタイルが `移動X1`, `移動Y1` に, 小�
 
 ### ペンローズタイル モザイクフェードσの設定項目
 
-TODO: image of gui.
+<img width="500" height="630" alt="モザイクフェードのGUI" src="https://github.com/user-attachments/assets/96aaef3a-ff09-4556-934f-ce38cdcec755" />
 
 ####  `変化幅`
 
@@ -373,16 +373,10 @@ TODO: image of gui.
 
 遷移画像のパターンを，`円`, `四角`, `時計`, `ライン`, `ダブルライン`, `クロス` から選びます．
 
-TODO: images of these patterns.
-
-| `形状` | `画像` | `PI` での値 |
-|:---:|:---:|:---:|
-| `円` |  | `0` |
-| `四角` |  | `1` |
-| `時計` |  | `2` |
-| `ライン` |  | `3` |
-| `ダブルライン` |  | `4` |
-| `クロス` |  | `5` |
+| `円` | `四角` | `時計` | `ライン` | `ダブルライン` | `クロス` |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| <img width="160" height="160" alt="円の遷移画像" src="https://github.com/user-attachments/assets/41c09501-b303-49bd-a266-a1586ae84f2d" /> | <img width="160" height="160" alt="四角の遷移画像" src="https://github.com/user-attachments/assets/506a92ff-dca0-43a0-90af-41e5c29e5bef" /> | <img width="160" height="160" alt="時計の遷移画像" src="https://github.com/user-attachments/assets/a46d9be1-7e6c-4315-bd59-4c02820a359d" /> | <img width="160" height="160" alt="ラインの遷移画像" src="https://github.com/user-attachments/assets/b1652a46-79ab-4d91-88fa-3807b6dd406e" /> | <img width="160" height="160" alt="ダブルラインの遷移画像" src="https://github.com/user-attachments/assets/2f69a7ef-0ce3-4419-b9ca-8a96d93c3150" /> | <img width="160" height="160" alt="クロスの遷移画像" src="https://github.com/user-attachments/assets/c10f635f-2dd5-4439-8163-8cd15e92943b" /> |
+| `PI` での値: `0` | `PI` での値: `1` | `PI` での値: `2` | `PI` での値: `3` | `PI` での値: `4` | `PI` での値: `5` |
 
 初期値は `円`.
 
