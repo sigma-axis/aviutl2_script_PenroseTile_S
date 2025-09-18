@@ -31,6 +31,7 @@ jobs:
         mkdir pack
         cp *.obj2 pack
         cp *.anm2 pack
+        cp *.scn2 pack
         cp *.md pack
         cp LICENSE pack/LICENSE
         cd pack
