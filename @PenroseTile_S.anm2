@@ -24,7 +24,7 @@ https://mit-license.org/
 ]]
 
 @ペンローズタイル モザイクσ
---information:ペンローズタイル モザイクσ v1.10 (for beta11a) by σ軸
+--information:ペンローズタイル モザイクσ v1.20 (for beta12) by σ軸
 --label:加工
 --check@one_sample:単点サンプル,0
 --select@pattern:種類=0,P2(Kite+Dart)=0,P3(菱形2種)=1
@@ -468,7 +468,7 @@ if edge_style ~= 0 then
 end
 
 @ペンローズタイル ぼかしσ
---information:ペンローズタイル ぼかしσ v1.10 (for beta11a) by σ軸
+--information:ペンローズタイル ぼかしσ v1.20 (for beta12) by σ軸
 --label:ぼかし
 --track@range:範囲,0,1000,5,0.1
 --select@pattern:種類=0,P2(Kite+Dart)=0,P3(菱形2種)=1
@@ -930,7 +930,7 @@ if edge_style ~= 0 then
 end
 
 @ペンローズタイル レンズσ
---information:ペンローズタイル レンズσ v1.10 (for beta11a) by σ軸
+--information:ペンローズタイル レンズσ v1.20 (for beta12) by σ軸
 --label:変形
 --track@move_x1:移動X1,-5000,5000,0,0.1
 --track@move_y1:移動Y1,-5000,5000,0,0.1

@@ -23,14 +23,13 @@ SOFTWARE.
 https://mit-license.org/
 ]]
 
---information:ペンローズタイル モザイクフェードσ v1.10 (for beta11a) by σ軸
+--information:ペンローズタイル モザイクフェードσ v1.20 (for beta12) by σ軸
 --label:シーンチェンジ
 --track@bandwidth:変化幅,0,200,75,0.01
 --track@fade_time:フェード割合,0,100,15,0.01
 --select@shape:形状=0,円=0,四角=1,時計=2,ライン=3,ダブルライン=4,クロス=5
 --track@shape_rot:形状回転,-360,360,0,0.01
 --check@shape_orth:縦横比固定,1
---check@use_image:形状を画像で指定,0
 --file@file_image:遷移画像ファイル
 --check@reverse:反転,0
 --select@pattern:種類=0,P2(Kite+Dart)=0,P3(菱形2種)=1
@@ -353,8 +352,7 @@ float4 apply(float4 pos : SV_Position) : SV_Target
 local obj, math, tonumber, type = obj, math, tonumber, type;
 
 -- set anchors.
--- obj.setanchor("track", 0, "line");
--- anchors don't seem to work with scene changes.
+obj.setanchor("track", 0, "line");
 
 -- take parameters.
 --[==[
@@ -364,7 +362,6 @@ local obj, math, tonumber, type = obj, math, tonumber, type;
 		shape:			number?,
 		shape_rot:		number?,
 		shape_orth:		boolean|number|nil,
-		use_image:		boolean|number|nil,
 		file_image:		string,
 		reverse:		boolean|number|nil,
 		pattern:		number?,
@@ -387,7 +384,6 @@ fade_time = tonumber(PI.fade_time) or fade_time;
 shape = tonumber(PI.shape) or shape;
 shape_rot = tonumber(PI.shape_rot) or shape_rot;
 shape_orth = as_bool(PI.shape_orth, shape_orth ~= 0);
-use_image = as_bool(PI.use_image, use_image ~= 0);
 file_image = type(PI.file_image) == "string" and PI.file_image or file_image;
 reverse = as_bool(PI.reverse, reverse ~= 0);
 pattern = tonumber(PI.pattern) or pattern;
@@ -404,7 +400,6 @@ bandwidth = math.min(math.max(bandwidth / 100, 0), 2);
 fade_time = math.min(math.max(fade_time / 100, 1 / 1024), 1 - 1 / 1024);
 shape = math.min(math.max(math.floor(0.5 + shape), 0), 5);
 shape_rot = math.pi / 180 * shape_rot;
-use_image = use_image and #file_image > 3;
 local kite_dart = math.floor(0.5 + pattern) == 0;
 local center_sun = math.floor(0.5 + center_form) == 0;
 size = math.max(size, 2);
@@ -413,6 +408,7 @@ rotate = math.pi / 180 * rotate;
 
 -- further calculations for the shape of transition.
 obj.copybuffer("tempbuffer", "object");
+local use_image = #file_image > 3;
 if use_image then
 	obj.load("image", file_image);
 	if obj.w < 1 or obj.h < 1 then
