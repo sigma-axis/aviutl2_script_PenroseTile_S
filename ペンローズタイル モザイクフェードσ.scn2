@@ -23,7 +23,7 @@ SOFTWARE.
 https://mit-license.org/
 ]]
 
---information:ペンローズタイル モザイクフェードσ v1.21 (for beta12) by σ軸
+--information:ペンローズタイル モザイクフェードσ v1.22 (for beta20) by σ軸
 --label:シーンチェンジ
 --track@bandwidth:変化幅,0,200,75,0.01
 --track@fade_time:フェード割合,0,100,15,0.01
